@@ -1,0 +1,133 @@
+header{
+    width: 100vw;
+    background: var(--white);
+    border-bottom: 0.2px solid rgba(182, 182, 182, 0.116);
+}
+
+header .top{
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+}
+
+header .top .container{
+    width: 98%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .top .container .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+}
+
+header .top .container .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 362px;
+}
+
+header .top .container .right .nav-items{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.header-input{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(235, 235, 235);
+    height: 30px;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+.header-input input{
+    width: 85%;
+    border: none;
+    background: transparent;
+
+}
+
+.favorite-img,.cart-img{
+    position: relative;
+}
+
+.nav-items span{
+    background-color: var(--black);
+    color: var(--white);
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    font-size: 8px;
+    border-radius: 50px;
+    text-align: center;
+    bottom: 13px;
+    right: -1px;
+}
+
+
+.armani-header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--black);
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+
+header .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 40px;
+}
+
+
+header .bottom .container{
+    width: 80%;
+    height: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fashion-lifestyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    width: 170px;
+}
+
+.fashion-lifestyle p{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    height: 68px;
+    display: flex;
+    padding-bottom: 4px;
+    align-items: center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.fashion-lifestyle p:hover{
+    border-bottom: 4px solid rgb(112, 112, 112);
+}
